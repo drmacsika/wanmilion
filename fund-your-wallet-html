@@ -32,22 +32,22 @@
 </nav>
 <div class="container-fluid">
     <div class="row text-center">
-      <div class="hidden-xs col-xs-3"></div>
-        <div class="col-xs-12 col-sm-6 imprint-p-text-1">
+      <div class="hidden-xs col-xs-2"></div>
+        <div class="col-xs-12 col-sm-8 imprint-p-text-1">
           <p>Fund your wallet</p>
         </div>
-      <div class="hidden-xs col-xs-3"></div>
+      <div class="hidden-xs col-xs-2"></div>
     </div>
 
 
 <div class="row">
       <div class="col-xs-12">
         <div class="row text-center" style="padding-top: 50px;">
-            <div class="hidden-xs col-xs-4"></div>
-            <div class="col-xs-12 col-sm-4 imprint-p-text">
+            <div class="hidden-xs col-xs-3"></div>
+            <div class="col-xs-12 col-sm-6 imprint-p-text">
               <p>How much would you like to put in your wallet?</p>
             </div>
-            <div class="hidden-xs col-xs-4"></div>
+            <div class="hidden-xs col-xs-3"></div>
           </div>
         <form class="search text-center">
           <div class="row text-center home-search-box-div">
