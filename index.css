@@ -1,3 +1,9 @@
+/*
+All rights reserved © 2016 Wanmilion.
+Content Author: Archangel Macsika;
+Created: 3rd September 2016.
+Last updated: 5th September 2016.
+*/
 *
 {
   margin:0px;
@@ -39,6 +45,7 @@ body, html
 .main-title
 {
   color: #e2721d;
+  font-size: 60px;
 }
 .home-search-box-div
 {
@@ -46,7 +53,7 @@ body, html
 }
 .home-search-box
 {
-  width: 500px;
+  width: 600px;
   height: 40px;
   outline: none;
   border: 1px solid rgb(230, 230, 230);
@@ -268,7 +275,25 @@ body, html
   color: rgb(179, 179, 179);
   padding-top: 20px;
 }
-@media screen and (max-width: 480px)
+@media (max-width: 767px)
+{
+  .home-search-box
+  {
+    width: 480px;
+    height: 40px;
+   
+  }
+ .amount-input
+ {
+  width: 250px;
+ }
+  .main-title
+  {
+    color: #e2721d;
+    font-size: 50px;
+  }
+}
+@media (max-width: 500px)
 {
   .home-search-box
   {
