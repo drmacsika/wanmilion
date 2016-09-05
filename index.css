@@ -242,6 +242,76 @@ body, html
   font-size: 150px;
   color: rgba(107, 205, 219, 0.8);
 }
+.img-display-box-cover
+{
+padding-top: 5px;
+}
+.img-display-box
+{
+  background-color: #fff;
+  height: 400px;
+  border: 2px solid rgba(226, 114, 29, 0.3);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.img-display-box i
+{
+  font-size: 100px;
+  color: red;
+}
+.desc-box
+{
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 10px 10px 10px 10px;
+  height: 25%;
+  color: rgb(115, 115, 115);
+   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.desc-box p
+{
+  font-size: 14px;
+  color: rgb(179, 179, 179);
+}
+.desc-box p:hover
+{
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+}
+.bio-btn-parent
+{
+  background-color: #fff;
+  padding: 30px;
+
+}
+.bio-btn-child a
+{
+  background-color: rgba(226, 114, 29, 0.1);
+  padding: 25px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-decoration: none;
+  color: rgba(226, 114, 29, 0.5);
+  cursor: pointer;
+  font-size: 14px;
+}
+.bio-btn-child a:hover
+{
+  background-color: rgba(226, 114, 29, 0.3);
+  color: #fff;
+
+   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 .footer
 {
   position: absolute;
@@ -292,6 +362,26 @@ body, html
     color: #e2721d;
     font-size: 50px;
   }
+    .bio-btn-child
+{
+ padding-top: 50px;
+}
+.bio-btn-parent
+{
+  padding-top: 0px;
+}
+}
+@media (min-width: 768px) and (max-width: 1200px) 
+{
+    .bio-btn-child
+{
+ padding-top: 50px;
+}
+.bio-btn-parent
+{
+  padding-top: 0px;
+}
+
 }
 @media (max-width: 500px)
 {
@@ -310,4 +400,22 @@ body, html
 	  color: #e2721d;
 	  font-size: 30px;
 	}
+  .bio-btn-parent
+{
+  background-color: #fff;
+  padding: none;
+
+}
+  .bio-btn-child
+{
+ padding-top: 30px;
+}
+  .bio-btn-child a
+{
+  padding: 15px;
+}
+.bio-btn-parent
+{
+  padding-top: 0px;
+}
 }
